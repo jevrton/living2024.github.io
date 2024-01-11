@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #BB86FC;
+    --primary-variant-color: #3700B3;
+    --secondary-color: #03DAC6;
+
+    --background-color: #121212;
+    --surface-color: #292929;
+
+    --error-color: #CF6679;
+
+    --onprimary-color: #000;
+    --onsecondary-color: #000;
+    --onbackground-color: #FFF;
+    --onsurface-color: #FFF;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.navigation-bar {
+    background-color: var(--surface-color);
+}
